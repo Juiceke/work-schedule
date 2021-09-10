@@ -18,21 +18,68 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
+      <h1 class="display-3" id='test'>Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="row">
+        <h6 class="col-1 hour time-block">9AM</h6>
+        <textarea class="col-10 bg-light" id='nine'></textarea>
+        <button class="col-1 saveBtn" id='nineBtn'><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">10AM</h6>
+        <textarea class="col-10 bg-light" id="ten"></textarea>
+        <button class="col-1 saveBtn" id="tenBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">11AM</h6>
+        <textarea class="col-10 bg-light" id='eleven'></textarea>
+        <button class="col-1 saveBtn" id='elevenBtn'><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">12PM</h6>
+        <textarea class="col-10 bg-light" id="twelve"></textarea>
+        <button class="col-1 saveBtn" id='twelveBtn'><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">1PM</h6>
+        <textarea class="col-10 bg-light" id="one"></textarea>
+        <button class="col-1 saveBtn" id='oneBtn'><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">2PM</h6>
+        <textarea class="col-10 bg-light" id='two'></textarea>
+        <button class="col-1 saveBtn" id='twoBtn'><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">3PM</h6>
+        <textarea class="col-10 bg-light" id="three"></textarea>
+        <button class="col-1 saveBtn" id="threeBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">4PM</h6>
+        <textarea class="col-10 bg-light" id="four"></textarea>
+        <button class="col-1 saveBtn" id="fourBtn"><i class="fas fa-save"></i></button>
+      </div>
+      <div class="row">
+        <h6 class="col-1 hour time-block">5PM</h6>
+        <textarea class="col-10 bg-light" id="five"></textarea>
+        <button class="col-1 saveBtn" id="fiveBtn"><i class="fas fa-save"></i></button>
+      </div>
     </div>
 
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
